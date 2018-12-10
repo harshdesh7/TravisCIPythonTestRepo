@@ -4,9 +4,7 @@ python:
   - "3.7"
 # command to install dependencies
 install:
-  - pip install unittest
-  - pip install requests
+  - pip install unittest2
+  - pip install requests2
 script: python milestone_5_tests.py
-branches:
-  only:
-    - master
+
