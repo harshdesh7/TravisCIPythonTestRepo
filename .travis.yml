@@ -1,0 +1,9 @@
+language: python
+python:
+  - "3.2"
+  - "3.3"
+# command to install dependencies
+script: python tests/milestone_5_tests.py
+branches:
+  only:
+    - master
