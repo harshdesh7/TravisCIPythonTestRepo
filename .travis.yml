@@ -1,11 +1,11 @@
 language: python
 python:
-  - "3.2"
-  - "3.3"
+  - "3.6"
+  - "3.7"
 # command to install dependencies
 install:
   - pip install unittest
-  - pip install requests2
+  - pip install requests
 script: python milestone_5_tests.py
 branches:
   only:
