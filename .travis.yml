@@ -4,9 +4,9 @@ python:
   - "3.3"
 # command to install dependencies
 install:
-  - pipenv install requests
-script:
-  - milestone_5_tests.py
+  - pip install unittest
+  - pip install requests2
+script: python milestone_5_tests.py
 branches:
   only:
     - master
