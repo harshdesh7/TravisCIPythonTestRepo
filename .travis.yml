@@ -3,7 +3,10 @@ python:
   - "3.2"
   - "3.3"
 # command to install dependencies
-script: python tests/milestone_5_tests.py
+install:
+  - pipenv install requests
+script:
+  - milestone_5_tests.py
 branches:
   only:
     - master
